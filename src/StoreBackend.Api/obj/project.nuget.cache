@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "B02tTofmWg0=",
-  "success": true,
+  "dgSpecHash": "5iDOFGY6NQo=",
+  "success": false,
   "projectFilePath": "C:\\Users\\Profesores\\Desktop\\SeguridadWeb\\Taller2\\src\\StoreBackend.Api\\StoreBackend.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Profesores\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
@@ -20,9 +20,7 @@
     "C:\\Users\\Profesores\\.nuget\\packages\\microsoft.codeanalysis.workspaces.msbuild\\5.0.0\\microsoft.codeanalysis.workspaces.msbuild.5.0.0.nupkg.sha512",
     "C:\\Users\\Profesores\\.nuget\\packages\\microsoft.data.sqlclient\\6.1.1\\microsoft.data.sqlclient.6.1.1.nupkg.sha512",
     "C:\\Users\\Profesores\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\6.0.2\\microsoft.data.sqlclient.sni.runtime.6.0.2.nupkg.sha512",
-    "C:\\Users\\Profesores\\.nuget\\packages\\microsoft.entityframeworkcore\\10.0.2\\microsoft.entityframeworkcore.10.0.2.nupkg.sha512",
-    "C:\\Users\\Profesores\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\10.0.2\\microsoft.entityframeworkcore.abstractions.10.0.2.nupkg.sha512",
-    "C:\\Users\\Profesores\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\10.0.2\\microsoft.entityframeworkcore.analyzers.10.0.2.nupkg.sha512",
+    "C:\\Users\\Profesores\\.nuget\\packages\\microsoft.entityframeworkcore\\11.0.0-preview.4.26230.115\\microsoft.entityframeworkcore.11.0.0-preview.4.26230.115.nupkg.sha512",
     "C:\\Users\\Profesores\\.nuget\\packages\\microsoft.entityframeworkcore.design\\10.0.2\\microsoft.entityframeworkcore.design.10.0.2.nupkg.sha512",
     "C:\\Users\\Profesores\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\10.0.2\\microsoft.entityframeworkcore.relational.10.0.2.nupkg.sha512",
     "C:\\Users\\Profesores\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\10.0.2\\microsoft.entityframeworkcore.sqlserver.10.0.2.nupkg.sha512",
@@ -55,5 +53,17 @@
     "C:\\Users\\Profesores\\.nuget\\packages\\system.security.cryptography.pkcs\\9.0.4\\system.security.cryptography.pkcs.9.0.4.nupkg.sha512",
     "C:\\Users\\Profesores\\.nuget\\packages\\system.security.cryptography.protecteddata\\9.0.4\\system.security.cryptography.protecteddata.9.0.4.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.EntityFrameworkCore 11.0.0-preview.4.26230.115 is not compatible with net10.0 (.NETCoreApp,Version=v10.0). Package Microsoft.EntityFrameworkCore 11.0.0-preview.4.26230.115 supports: net11.0 (.NETCoreApp,Version=v11.0)",
+      "projectPath": "C:\\Users\\Profesores\\Desktop\\SeguridadWeb\\Taller2\\src\\StoreBackend.Api\\StoreBackend.Api.csproj",
+      "filePath": "C:\\Users\\Profesores\\Desktop\\SeguridadWeb\\Taller2\\src\\StoreBackend.Api\\StoreBackend.Api.csproj",
+      "libraryId": "Microsoft.EntityFrameworkCore",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
 }

@@ -1,11 +1,34 @@
 {
   "version": 3,
   "targets": {
-    "net10.0": {}
+    "net10.0": {
+      "Microsoft.EntityFrameworkCore/11.0.0-preview.4.26230.115": {
+        "type": "package"
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Microsoft.EntityFrameworkCore/11.0.0-preview.4.26230.115": {
+      "sha512": "TiQN5/JF8J9W+zg09pN+uBvcSLDblBWTKy6ZWypLi+KGdwcPWwKmdJeMoYus3WPMD2EEfC7Xso0BOUxVD2WKug==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore/11.0.0-preview.4.26230.115",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "README.md",
+        "buildTransitive/net11.0/Microsoft.EntityFrameworkCore.props",
+        "lib/net11.0/Microsoft.EntityFrameworkCore.dll",
+        "lib/net11.0/Microsoft.EntityFrameworkCore.xml",
+        "microsoft.entityframeworkcore.11.0.0-preview.4.26230.115.nupkg.sha512",
+        "microsoft.entityframeworkcore.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0": []
+    "net10.0": [
+      "Microsoft.EntityFrameworkCore >= 11.0.0-preview.4.26230.115"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Profesores\\.nuget\\packages\\": {},
@@ -56,6 +79,12 @@
     "frameworks": {
       "net10.0": {
         "targetAlias": "net10.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[11.0.0-preview.4.26230.115, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -349,5 +378,16 @@
         }
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.EntityFrameworkCore 11.0.0-preview.4.26230.115 is not compatible with net10.0 (.NETCoreApp,Version=v10.0). Package Microsoft.EntityFrameworkCore 11.0.0-preview.4.26230.115 supports: net11.0 (.NETCoreApp,Version=v11.0)",
+      "libraryId": "Microsoft.EntityFrameworkCore",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
 }

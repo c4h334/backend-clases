@@ -1253,7 +1253,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "11.0.0-preview.4.26230.115"
+          "Microsoft.EntityFrameworkCore": "10.0.2"
         },
         "compile": {
           "bin/placeholder/StoreBackend.Domain.dll": {}
@@ -4040,16 +4040,5 @@
         }
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Warning As Error: Detected package downgrade: Microsoft.EntityFrameworkCore from 11.0.0-preview.4.26230.115 to 10.0.2. Reference the package directly from the project to select a different version. \r\n StoreBackend.Infraestructure -> StoreBackend.Domain -> Microsoft.EntityFrameworkCore (>= 11.0.0-preview.4.26230.115) \r\n StoreBackend.Infraestructure -> Microsoft.EntityFrameworkCore (>= 10.0.2)",
-      "libraryId": "Microsoft.EntityFrameworkCore",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    }
-  ]
+  }
 }

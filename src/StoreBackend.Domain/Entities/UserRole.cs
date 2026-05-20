@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore;
 namespace StoreBackend.Domain.Entities;
 
 
-[Table(nameof(UserRole))]
+[Table("UserRoles")]
 [Index(nameof(UserRoleResourceId), IsUnique = true)]
 public class UserRole
 {

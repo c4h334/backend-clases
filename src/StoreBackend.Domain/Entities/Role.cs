@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace StoreBackend.Domain.Entities;
 
-[Table(nameof(Role))]
+[Table("Roles")]
 [Index(nameof(Name), IsUnique = true)]
 [Index(nameof(RoleResourceId), IsUnique = true)]
 
